@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="home.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- <h1>Nishita Upreti</h1> -->
+        <a href="#" class="logo">Nishita Upreti</a>
+        <ul>
+            <li><a href="#home10">Home</a></li>
+            <li><a href="#about10">About</a></li>
+            <li><a href="#project10">Projects</a></li>
+            <li><a href="#contact10">Contact</a></li>
+            <li><a href="final.pdf">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="home10">
+        <div class="container" id="home">
+            <div class="div1" id="main-para">
+                <p>Hello, I'm Nishita Upreti! Welcome to my portfolio, where you can explore my projects, discover my skills, and see how I blend technology and innovation. </p>   
+            </div>
+            <div class="div2" id="main-img">
+                <img src="60f4bdde8f893848d813eb38d7cbb7cf.jpg" id="img1">
+            </div>
+        </div>
+    </section>
+
+
+    <sction id="about10">
+        <div class="container" id="about">
+            <div class="div1" id="about1">
+                <img src="1a65011a-3877-4438-b51a-bb001b8de415.jpg" id="img2">
+            </div>
+            <div class="div2" id="about2">
+                <h3>About Me!</h3>
+                <p>I'm a freshman at Lovely Professional University with a strong interest in technology. I have experience in mobile app development, web design, and Arduino projects, and I'm skilled in <u>Python</u>, <u>HTML</u>, <u>CSS</u>, and <u>JavaScript</u>. I've worked on projects like a website promoting clean energy, an ultrasonic radar system using Arduino, and an e-booking platform for parking spots. Through hackathons and hands-on projects, I continue to sharpen my problem-solving skills and explore new technologies.</p>
+            </div>
+        </div>
+    </sction>
+
+
+    <section id="project10">
+        <div class="container" id="projects">
+            <section style="min-height: 100vh;" id="skills">
+                <div class="skills-content">
+                    <h2 class="slide-in-text">Projects</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <a href="https://nishitaupreti.github.io/The-Clean-Compass/"><h3>Clean Compass</h3></a>
+                            <p>It is a user-friendly website that provides resources on clean energy solutions. It offers curated content to help users choose the right solar panel and explore affordable, sustainable energy options. Built with HTML, CSS, and JavaScript, the website is easy to navigate and informative.</p>
+                        </div>
+                        <div class="skill-card">
+                            <a href="https://github.com/NishitaUpreti/Arduino"><h3>Ultrasonic Radar System</h3></a>
+                            <p>Developed an ultrasonic radar system using Arduino for an ECE project. The system detects objects and measures distances in real-time using ultrasonic sensors, with data visualization. This project showcased my skills in electronics, programming, and problem-solving. Technologies used include C++ and JavaScript.</p>                    
+                        </div>
+                        <div class="skill-card">
+                            <a href="https://nishitaupreti.github.io/Parking-Spot/"><h3>Parking Spot booking website</h3></a>
+                            <p>Developed an e-booking website that allows users to easily book parking spots and receive tickets online. The platform is designed for convenience and user-friendliness. The website was built using HTML, CSS, and JavaScript to ensure a smooth and responsive user experience.</p>                    
+                        </div>
+                        <div class="skill-card">
+                            <a href="https://github.com/NishitaUpreti/Travel-Blog"><h3>The Travel Tales</h3></a>
+                            <p>Developed a travel blog website where users can share their travel journeys, read articles, and explore other people's blogs. It also allows users to discover new travel destinations. Built with HTML, CSS, and JavaScript, the website provides an engaging platform for travel enthusiasts to connect and share their experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <section id="contact10">
+        <div class="container" id="contact">
+            <div class="div1" id="contact1">
+                <p id="connect1"><strong>Let's Connect!</strong></p>
+                <ul>
+                    <li><button onclick="redirectToWebsite1()"><img src="icons8-github-100.png" alt="Github" id="img3"></button></li>
+                    <li><button onclick="redirectToWebsite2()"><img src="icons8-gmail-100.png" alt="Gmail" id="img4"></button></li>
+                    <li><button onclick="redirectToWebsite3()"><img src="icons8-linkedin-100.png" alt="Linkedin" id="img5"></button></li>
+                </ul>
+                
+            </div>
+            <div class="div2" id="contact2">
+                <form action="grievence.html">
+                    <div id="contac3">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="feedback">Please enter your message:</label>
+                        <textarea id="feedback" name="FEEDBACK" rows="4" cols="20" 
+                        placeholder="Write your grievence here."></textarea>
+                        <br>
+                        <button id="buttonlast">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="home.js"></script>
+</body>
+</html>
